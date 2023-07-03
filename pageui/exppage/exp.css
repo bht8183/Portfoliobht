@@ -23,6 +23,10 @@ body{
     width: 100%;
     object-fit: cover;  
 }
+.infobox{
+    padding-top: 7%;
+    padding-right: 15%;
+}
 .container{
     height: 30%;
     width: 100%;
