@@ -22,8 +22,8 @@
     
 }
 #kirb{
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     padding-left: 20px;
 }
 .desc{
@@ -32,6 +32,9 @@
     transition: max-height 0.2s ease-out;
     display: flex;
     justify-content: center;
+
     
-    
+}
+ul{
+    list-style: none;
 }

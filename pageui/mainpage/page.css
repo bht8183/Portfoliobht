@@ -36,7 +36,15 @@
     height: 15vw;
     float: right;
     padding: 40px;
+    transition: transform 2.0s ease-in-out;
+    border-radius: 30%;
 }
+
+#kirb:hover{
+    transform: rotate(1440deg) scale(1.5);
+    
+}
+
 h1{
     font-size: 4vw;
     padding: 0%;
@@ -124,11 +132,45 @@ body{
     height: 7vw;
     padding: 20px;
     border-radius: 30%;
+
+    transition: transform 0.5s ease-in-out;
     
+}
+#kirb3:hover{
+    transform: scale(1.2);
+
 }
 #kirb4{
     width: 7vw;
     height: 7vw;
     padding: 20px;
     border-radius: 30%;
+    transition: transform 0.5s ease-in-out;
+}
+
+#kirb4:hover{
+    transform: scale(1.2);
+
+}
+
+
+.swiper{
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.swiper-slide{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
 }

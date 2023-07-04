@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <link rel = "stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
     <link rel = "stylesheet" href="page.css" type="text/css">
     <head>
         <title>
@@ -19,8 +20,8 @@
                     <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word">Full stack developer</div>
                     <div style="color: black; font-size: 60px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> Brian Tokumoto</div>
                     <h2>
-                        100 morbillion dollars 100 morbillion dollars<br>
-                        100 morbillion dollars 100 morbillion dollars
+                        Nice to meet you! I'm a software developer with a background in computer science<br>
+                        
                     </h2>
                     
                 </div>
@@ -31,17 +32,56 @@
         <div id = "about">
             <div id = "about1">
                 <div id = "abouttext1">
-                    <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> lmao lmao lmao lmao <br> lmao lmao lmao lmao</div>
+                    <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> 
+                        I am a third year at the Rochester Institute of Technology <br> 
+                        and will be graduating in 2025 with a Bachelor's degree  <br>
+                        in Computer Science
+                        </div>
                 </div>
-                
-                <img src="../funnies/kirb.jpg" alt="kirb" id="kirb1">
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" style="background-image: url(../funnies/ono.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(../funnies/finger.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(../funnies/roblos.jpg);"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+    
+                </div>
+
+
             </div>
 
             <div id = "about2">
                 <div id = "abouttext2">
-                    <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> lmao lmao lmao lmao <br> lmao lmao lmao lmao</div>
+                    <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word">  <br> lmao lmao lmao lmao</div>
                 </div>
-                <img src="../funnies/kirb.jpg" alt="kirb" id="kirb2">
+
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide" style="background-image: url(../funnies/ono.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(../funnies/finger.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(../funnies/roblos.jpg);"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+    
+                </div>
+
+
             </div>
         </div>
 
@@ -50,16 +90,24 @@
                 <div id = "linkinname">
                     <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> i forgor</div>
                 </div>
-                <img src="../funnies/kirb.jpg" alt="kirb" id="kirb3">
+                <a href="https://www.google.com" target="_blank">
+                    <img src="../funnies/kirb.jpg" alt="kirb" id="kirb3">
+                </a>
             </div>
 
             <div id = "github">
                 <div id = "linkinname">
                     <div style="color: black; font-size: 25px; font-family: Imprima; font-weight: 400; word-wrap: break-word"> gitgit</div>
                 </div>
-                <img src="../funnies/kirb.jpg" alt="kirb" id="kirb4">
+                <a href="https://www.google.com" target="_blank">
+                    <img src="../funnies/kirb.jpg" alt="kirb" id="kirb4">
+                </a>
             </div>
         </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="page.js"></script>
+
     </body>
 </html>
