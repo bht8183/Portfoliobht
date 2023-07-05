@@ -2,6 +2,9 @@
     
     width: 100%;
     overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .topnav a{
     float: right;
@@ -10,6 +13,10 @@
 }
 .topnav a:hover{
     color: chocolate;
+}
+
+#email{
+    padding-right: 900px;
 }
 
 #info-body{
@@ -41,7 +48,7 @@
 }
 
 #kirb:hover{
-    transform: rotate(1440deg) scale(1.5);
+    transform: rotate(3600deg) scale(1.5);
     
 }
 
@@ -156,10 +163,10 @@ body{
 
 .swiper{
     width: 40%;
-    height: 100%;
+    height: 70%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-top: 5%;
 }
 .swiper-slide{
@@ -173,4 +180,9 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;  
+}
+.swiper-slide{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
