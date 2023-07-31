@@ -13,12 +13,13 @@
 }
 
 .accordion{
-    background-color: #ECECEC;
+    background-color: #d8d8d8;
     width: 40vw;
     height: 2vw;
     cursor:pointer;
     border: none;
     text-align: center;
+    margin: 7px;
     
 }
 #kirb{
@@ -32,8 +33,16 @@
     transition: max-height 0.2s ease-out;
     display: flex;
     justify-content: center;
+}
 
-    
+
+#list{
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+#list:hover{
+    transform: scale(1.5);
+    color: rgb(225, 155, 105);
 }
 ul{
     list-style: none;
